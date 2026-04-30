@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Erik Ahlbäck — personlig hemsida
 
-## Getting Started
+Minimalistisk landningssida för Erik Ahlbäck. Byggd med [Next.js](https://nextjs.org/),
+[Tailwind CSS](https://tailwindcss.com) och hostad på [Vercel](https://vercel.com).
 
-First, run the development server:
+## Snabbstart
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
+```sh
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Öppna http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Redigera innehåll
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+All text och alla låtar/projekt finns i mappen [`content/`](./content):
 
-## Learn More
+- [`content/site.ts`](./content/site.ts) — namn, intro, om-text, kontakt
+- [`content/tracks.ts`](./content/tracks.ts) — låtar i musikspelaren
+- [`content/projects.ts`](./content/projects.ts) — projektlistan
 
-To learn more about Next.js, take a look at the following resources:
+Detaljerade guider finns i [`docs/`](./docs/README.md).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Struktur
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+app/                Next.js App Router (layout, sidor, global CSS)
+components/         React-komponenter (Hero, Section, MusicPlayer, ...)
+content/            Redaktionellt innehåll — det här är det Erik redigerar
+docs/               Guider på svenska för redigering, deploy, etc.
+public/music/       Ljudfiler som spelaren läser från
+```
 
-## Deploy on Vercel
+## Deploy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Sidan deployas automatiskt till Vercel när något pushas till `main` på GitHub.
+Detaljer i [`docs/driftsattning.md`](./docs/driftsattning.md).
