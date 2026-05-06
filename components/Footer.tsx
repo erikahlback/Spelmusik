@@ -11,6 +11,7 @@ export function Footer() {
     });
   if (contact.spotify) links.push({ label: "Spotify", href: contact.spotify });
   if (contact.youtube) links.push({ label: "YouTube", href: contact.youtube });
+  if (contact.vimeo) links.push({ label: "Vimeo", href: contact.vimeo });
 
   return (
     <footer
@@ -30,7 +31,7 @@ export function Footer() {
             <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-2">
               {links.map((l) => (
                 <li key={l.href}>
-                  <a
+                  
                     className="underline-offset-4 hover:underline"
                     href={l.href}
                     target={l.href.startsWith("http") ? "_blank" : undefined}
