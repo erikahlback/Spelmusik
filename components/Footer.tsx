@@ -11,6 +11,7 @@ export function Footer() {
     });
   if (contact.spotify) links.push({ label: "Spotify", href: contact.spotify });
   if (contact.youtube) links.push({ label: "YouTube", href: contact.youtube });
+  if (contact.vimeo) links.push({ label: "Vimeo", href: contact.vimeo });
 
   return (
     <footer
