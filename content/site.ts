@@ -2,18 +2,20 @@
 // kontaktuppgifter och hur sektioner visas.
 
 export const site = {
-  name: "Erik Ahlbäck",
-  tagline: "Musiker och projektmakare.",
+  name: "Erik Ahlback",
+  tagline: "Most of my work happens between two studios.",
   intro:
-    "Jag skapar musik och driver olika projekt. Här samlar jag det jag jobbar på just nu och saker jag släppt.",
+    "Composer for games, film, and artists — working between Stockholm and Dakar, where Nordic restraint meets West African rhythm.",
   about: [
-    "Musiken är centrum i det jag gör. Jag rör mig mellan inspelning, framträdande och ljudidéer som inte riktigt vill bli något ännu.",
-    "Vid sidan om musiken pågår det alltid något. Mindre projekt, samarbeten och experiment som ibland leder vidare och ibland bara får finnas.",
+    "In Toubab Dialaw — a fishing village an hour south of Dakar, Senegal — I run a small studio I built in partnership with a local foundation that keeps it open to musicians in the village.",
+    "This year we traveled across Senegal with a portable rig and recorded 25 musicians outdoors — environmental sound and texture were as much the point as the music itself.",
+    "Recent projects include a score for a dance piece premiered in Senegal, and music for an art exhibition opening in Copenhagen this July — a piece written to listen to a room, and to the materials inside it.",
+    "When a project asks for it, I also shoot and edit — documentary work, music videos and sometimes scoring my own footage.",
   ],
   contact: {
-    email: "", // t.ex. "erik@example.com" — lämna tom för att dölja
+    email: "erik.ahlback@gmail.com",
     instagram: "", // t.ex. "erikahlback" (utan @)
-    spotify: "", // full URL till artistsidan
+    spotify: "", // full URL till artistsidan — t.ex. Teranga Music
     youtube: "", // full URL
   },
   // Visa eller dölj sektioner

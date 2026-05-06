@@ -3,7 +3,7 @@ import { site } from "@/content/site";
 export function Footer() {
   const { contact, name } = site;
   const links: Array<{ label: string; href: string }> = [];
-  if (contact.email) links.push({ label: "E-post", href: `mailto:${contact.email}` });
+  if (contact.email) links.push({ label: "Email", href: `mailto:${contact.email}` });
   if (contact.instagram)
     links.push({
       label: "Instagram",
@@ -20,11 +20,11 @@ export function Footer() {
       <div className="mx-auto flex w-full max-w-3xl flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <p className="font-mono text-xs uppercase tracking-[0.18em] text-muted">
-            Kontakt
+            Contact
           </p>
           {links.length === 0 ? (
             <p className="mt-3 text-muted">
-              Kontaktuppgifter läggs till här när de är klara.
+              Contact details coming soon.
             </p>
           ) : (
             <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-2">

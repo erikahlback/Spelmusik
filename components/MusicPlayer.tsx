@@ -41,9 +41,9 @@ export function MusicPlayer({ tracks }: Props) {
   if (tracks.length === 0) {
     return (
       <div className="rounded-lg border border-line p-6 text-center text-muted">
-        <p className="text-sm">Musik kommer snart.</p>
+        <p className="text-sm">Music coming soon.</p>
         <p className="mt-2 font-mono text-xs uppercase tracking-[0.18em]">
-          Spelaren aktiveras när första låten läggs till
+          Player activates when the first track is added
         </p>
       </div>
     );
@@ -73,7 +73,7 @@ export function MusicPlayer({ tracks }: Props) {
           <button
             type="button"
             onClick={() => setIsPlaying((p) => !p)}
-            aria-label={isPlaying ? "Pausa" : "Spela"}
+            aria-label={isPlaying ? "Pause" : "Play"}
             className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-foreground/20 transition hover:bg-foreground hover:text-background focus:outline-none focus-visible:ring-2 focus-visible:ring-foreground focus-visible:ring-offset-2 focus-visible:ring-offset-background"
           >
             {isPlaying ? (
@@ -108,7 +108,7 @@ export function MusicPlayer({ tracks }: Props) {
             step={0.1}
             value={currentTime}
             onChange={onScrub}
-            aria-label="Spelningsläge"
+            aria-label="Playback position"
             className="h-1 flex-1 cursor-pointer appearance-none rounded-full bg-line accent-foreground"
           />
           <span className="tabular-nums">{formatTime(duration)}</span>
