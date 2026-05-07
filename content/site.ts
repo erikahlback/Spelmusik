@@ -5,7 +5,7 @@ export const site = {
   name: "Erik Ahlback",
   tagline: "The work moves between two coasts.",
   intro:
-    "Composer for games, film, and performances — and cultural initiator trying to build bridges between artists in Sweden and Senegal.",
+    "Composer for games, film, and live performances.",
   about: [
     "Most of my work moves between two studios — one in Malmö, and one I built with local collaborators in Toubab Dialaw, an hour south of Dakar.",
     "This year we traveled across Senegal with a portable rig and recorded 25 musicians outdoors — environmental sound and texture were as much the point as the music itself.",
