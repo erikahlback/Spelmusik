@@ -18,12 +18,12 @@ export function Section({ id, eyebrow, title, children, className }: SectionProp
         {(eyebrow || title) && (
           <header className="mb-10 sm:mb-14">
             {eyebrow && (
-              <p className="font-mono text-xs uppercase tracking-[0.18em] text-muted">
+              <p className="font-pixel text-[0.6875rem] uppercase tracking-[0.05em] text-muted">
                 {eyebrow}
               </p>
             )}
             {title && (
-              <h2 className="mt-3 font-serif text-3xl leading-tight sm:text-4xl">
+              <h2 className="mt-4 font-serif italic text-3xl leading-tight sm:text-4xl">
                 {title}
               </h2>
             )}
