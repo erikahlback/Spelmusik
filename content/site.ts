@@ -2,7 +2,7 @@
 // kontaktuppgifter och hur sektioner visas.
 
 export const site = {
-  name: "Erik Ahlback",
+  name: "Erik Ahlbäck",
   tagline: "The work moves between two coasts.",
   intro:
     "Composer for games, film, and live performances.",

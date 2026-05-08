@@ -4,7 +4,7 @@ import { MusicPlayer } from "./MusicPlayer";
 
 export function Music() {
   return (
-    <Section id="musik" eyebrow="Music" title="Listen">
+    <Section id="musik" eyebrow="Music">
       <MusicPlayer tracks={tracks} />
     </Section>
   );

@@ -4,14 +4,14 @@ import { Section } from "./Section";
 export function Projects() {
   if (projects.length === 0) {
     return (
-      <Section id="projekt" eyebrow="Selected work" title="Recent">
+      <Section id="projekt" eyebrow="Selected work">
         <p className="text-muted">Selected work will appear here soon.</p>
       </Section>
     );
   }
 
   return (
-    <Section id="projekt" eyebrow="Selected work" title="Recent">
+    <Section id="projekt" eyebrow="Selected work">
       <ul className="divide-y divide-line border-y border-line">
         {projects.map((p) => (
           <li key={p.title} className="grid gap-2 py-6 sm:grid-cols-[10rem_1fr] sm:gap-8">

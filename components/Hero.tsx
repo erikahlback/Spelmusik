@@ -10,7 +10,7 @@ export function Hero() {
         <h1 className="mt-8 font-pixel text-3xl leading-[1.25] tracking-tight sm:text-5xl">
           {site.name}
         </h1>
-        <p className="mt-8 max-w-xl font-pixel text-sm leading-relaxed sm:text-base">
+        <p className="mt-8 max-w-xl font-pixel text-[0.6875rem] leading-relaxed text-foreground/70">
           {site.intro}
         </p>
         <nav className="mt-12 flex flex-wrap gap-x-6 gap-y-3 font-pixel text-[0.6875rem]">
