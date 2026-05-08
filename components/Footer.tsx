@@ -34,7 +34,7 @@ export function Footer() {
           {contact.email && (
             <p className="mt-4">
               <a
-                className="font-serif italic text-xl underline-offset-4 hover:underline sm:text-2xl"
+                className="font-pixel text-sm underline-offset-4 hover:underline sm:text-base"
                 href={`mailto:${contact.email}`}
               >
                 {contact.email}

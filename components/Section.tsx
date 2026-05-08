@@ -23,7 +23,7 @@ export function Section({ id, eyebrow, title, children, className }: SectionProp
               </p>
             )}
             {title && (
-              <h2 className="mt-4 font-serif italic text-3xl leading-tight sm:text-4xl">
+              <h2 className="mt-4 font-pixel text-xl leading-tight sm:text-2xl">
                 {title}
               </h2>
             )}
