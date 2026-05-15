@@ -19,4 +19,9 @@ export const tracks: Track[] = [
     file: "/music/mediaval-jam.mp3",
     year: 2026,
   },
+  {
+    title: "Mysterious nature",
+    file: "/music/mysterious-nature.mp3",
+    year: 2026,
+  },
 ];
