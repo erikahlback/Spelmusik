@@ -51,16 +51,16 @@ export default function RootLayout({
           src="/deco-left.png"
           alt=""
           aria-hidden="true"
-          className="fixed left-0 top-0 h-full w-auto object-cover object-top pointer-events-none select-none opacity-60"
-          style={{ zIndex: 0 }}
+          className="fixed left-0 top-0 pointer-events-none select-none"
+          style={{ zIndex: 0, height: "100vh", width: "auto", objectFit: "contain", objectPosition: "top left" }}
         />
         {/* Dekorativa figurer höger */}
         <img
           src="/deco-right.png"
           alt=""
           aria-hidden="true"
-          className="fixed right-0 top-0 h-full w-auto object-cover object-top pointer-events-none select-none opacity-60"
-          style={{ zIndex: 0 }}
+          className="fixed right-0 top-0 pointer-events-none select-none"
+          style={{ zIndex: 0, height: "100vh", width: "auto", objectFit: "contain", objectPosition: "top right" }}
         />
         <div className="relative" style={{ zIndex: 1 }}>
           {children}
