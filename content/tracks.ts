@@ -14,11 +14,9 @@ export type Track = {
 };
 
 export const tracks: Track[] = [
-  // Exempel — ta bort och lägg till egna när musik finns:
-  // {
-  //   title: "Första spår",
-  //   file: "/music/forsta-spar.mp3",
-  //   description: "Demo, inspelad hemma våren 2026.",
-  //   year: 2026,
-  // },
+  {
+    title: "Mediaval jam",
+    file: "/music/mediaval-jam.mp3",
+    year: 2026,
+  },
 ];
