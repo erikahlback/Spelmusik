@@ -17,11 +17,11 @@ export const tracks: Track[] = [
   {
     title: "Mediaval jam",
     file: "/music/mediaval-jam.mp3",
-    year: 2026,
+    year: "2:07",
   },
   {
     title: "Mysterious nature",
     file: "/music/mysterious-nature.mp3",
-    year: 2026,
+    year: "1:57",
   },
 ];
