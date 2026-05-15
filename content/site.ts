@@ -9,7 +9,7 @@ export const site = {
   about: [
     "Most of my work moves between two studios — one in Malmö, and one I built with local collaborators in Toubab Dialaw, an hour south of Dakar.",
     "This year we traveled across Senegal with a portable rig and recorded 25 musicians outdoors — environmental sound and texture were as much the point as the music itself.",
-    "Recent work includes a score for a dance piece premiered in Senegal, and music for an art exhibition opening in Copenhagen this July — a piece written to listen to a room and the materials inside it.",
+    "Current work includes a score for a dance piece premiered in Senegal, and music for an art exhibition opening in Copenhagen this July — a piece written to listen to a room and the materials inside it. Two albums are in progress for autumn 2026, recorded with separate collectives across Senegal.",
     "I'm especially drawn to games as a storytelling form, where music shapes world, mood, and player experience as much as narrative does. When a project asks for it, I also shoot and edit — documentary work, music videos, and sometimes scoring my own footage.",
   ],
   contact: {
