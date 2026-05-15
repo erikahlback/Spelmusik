@@ -15,7 +15,7 @@ export type Track = {
 
 export const tracks: Track[] = [
   {
-    title: "Mediaval jam",
+    title: "Medieval jam",
     file: "/music/mediaval-jam.mp3",
     year: "2:07",
   },
