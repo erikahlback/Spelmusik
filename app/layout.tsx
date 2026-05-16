@@ -46,20 +46,20 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} ${pressStart.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
-        {/* Dekorativa figurer vänster */}
+        {/* Dekorativa figurer vänster – döljs på mobil */}
         <img
           src="/deco-left.png"
           alt=""
           aria-hidden="true"
-          className="fixed left-0 top-0 pointer-events-none select-none"
+          className="hidden lg:block fixed left-0 top-0 pointer-events-none select-none"
           style={{ zIndex: 0, height: "100vh", width: "220px", objectFit: "fill" }}
         />
-        {/* Dekorativa figurer höger */}
+        {/* Dekorativa figurer höger – döljs på mobil */}
         <img
           src="/deco-right.png"
           alt=""
           aria-hidden="true"
-          className="fixed right-0 top-0 pointer-events-none select-none"
+          className="hidden lg:block fixed right-0 top-0 pointer-events-none select-none"
           style={{ zIndex: 0, height: "100vh", width: "220px", objectFit: "fill" }}
         />
         <div className="relative" style={{ zIndex: 1 }}>
