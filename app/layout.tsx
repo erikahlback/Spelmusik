@@ -52,7 +52,7 @@ export default function RootLayout({
           alt=""
           aria-hidden="true"
           className="fixed left-0 top-0 pointer-events-none select-none"
-          style={{ zIndex: 0, height: "100vh", width: "160px", objectFit: "cover", objectPosition: "left top" }}
+          style={{ zIndex: 0, height: "100vh", width: "220px", objectFit: "fill" }}
         />
         {/* Dekorativa figurer höger */}
         <img
@@ -60,7 +60,7 @@ export default function RootLayout({
           alt=""
           aria-hidden="true"
           className="fixed right-0 top-0 pointer-events-none select-none"
-          style={{ zIndex: 0, height: "100vh", width: "160px", objectFit: "cover", objectPosition: "right top" }}
+          style={{ zIndex: 0, height: "100vh", width: "220px", objectFit: "fill" }}
         />
         <div className="relative" style={{ zIndex: 1 }}>
           {children}
