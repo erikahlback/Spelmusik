@@ -51,7 +51,7 @@ export default function RootLayout({
           src="/fire-left.png"
           alt=""
           aria-hidden="true"
-          className="fire-left hidden lg:block fixed left-0 top-0 pointer-events-none select-none"
+          className="hidden lg:block fixed left-0 top-0 pointer-events-none select-none"
           style={{ zIndex: 0, height: "100vh", width: "auto", objectFit: "cover", objectPosition: "left top" }}
         />
         {/* Eld höger – döljs på mobil */}
@@ -59,7 +59,7 @@ export default function RootLayout({
           src="/fire-right.png"
           alt=""
           aria-hidden="true"
-          className="fire-right hidden lg:block fixed right-0 top-0 pointer-events-none select-none"
+          className="hidden lg:block fixed right-0 top-0 pointer-events-none select-none"
           style={{ zIndex: 0, height: "100vh", width: "auto", objectFit: "cover", objectPosition: "right top" }}
         />
         <div className="relative" style={{ zIndex: 1 }}>
