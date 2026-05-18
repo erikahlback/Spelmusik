@@ -52,7 +52,7 @@ export default function RootLayout({
           alt=""
           aria-hidden="true"
           className="hidden lg:block fixed left-0 top-0 pointer-events-none select-none"
-          style={{ zIndex: 0, height: "100vh", width: "auto" }}
+          style={{ zIndex: 0, width: "17vw", height: "auto" }}
         />
         {/* Dekorativa figurer höger – döljs på mobil */}
         <img
@@ -60,7 +60,7 @@ export default function RootLayout({
           alt=""
           aria-hidden="true"
           className="hidden lg:block fixed right-0 top-0 pointer-events-none select-none"
-          style={{ zIndex: 0, height: "100vh", width: "auto" }}
+          style={{ zIndex: 0, width: "17vw", height: "auto" }}
         />
         <div className="relative" style={{ zIndex: 1 }}>
           {children}
